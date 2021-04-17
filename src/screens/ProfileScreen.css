@@ -1,0 +1,162 @@
+.profileScreen {
+  height: 100vh;
+  color: white;
+}
+
+.profileScreen__body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  max-width: 800px;
+}
+
+.profileScreen__info {
+  display: flex;
+}
+
+.profileScreen__details {
+  color: white;
+  margin-left: 25px;
+  flex: 1;
+}
+
+.profileScreen__body > h1 {
+  font-size: 60px;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+
+.profileScreen__details > h2 {
+  background-color: gray;
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.profileScreen__signOut {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  color: white;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.profileScreen__info > img {
+  height: 100px;
+}
+
+/* PLANS SCREEN */
+
+.plansScreen__plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  min-height: 100px;
+}
+
+.plansScreen__info {
+  width: 50%;
+}
+
+.plansScreen__info h4 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.plansScreen__info p {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.plansScreen__info p,
+h4 {
+  opacity: 0.7;
+}
+
+.plansScreen__info p:hover,
+.plansScreen__info h4:hover {
+  opacity: 1;
+}
+
+.plansScreen__button {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 10px;
+}
+
+.plansScreen__button button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .profileScreen__body > h1 {
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .profileScreen__info > img {
+    height: 50px;
+  }
+  .plansScreen__info h4 {
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .plansScreen__button button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+  }
+  .plansScreen__button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+  }
+  .profileScreen__signOut {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    background-color: #e50914;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 400px) {
+  .profileScreen__body {
+    width: 80%;
+  }
+  .profileScreen__info > img {
+    height: 40px;
+  }
+  .profileScreen__details > h2 {
+    background-color: gray;
+    padding: 10px;
+    font-size: 15px;
+    padding-left: 35px;
+  }
+}
