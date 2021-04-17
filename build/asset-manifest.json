@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ioncapita/netflix-clone.git/static/css/main.35d75714.chunk.css",
+    "main.js": "/ioncapita/netflix-clone.git/static/js/main.961cabd8.chunk.js",
+    "main.js.map": "/ioncapita/netflix-clone.git/static/js/main.961cabd8.chunk.js.map",
+    "runtime-main.js": "/ioncapita/netflix-clone.git/static/js/runtime-main.0d22c9ab.js",
+    "runtime-main.js.map": "/ioncapita/netflix-clone.git/static/js/runtime-main.0d22c9ab.js.map",
+    "static/js/2.3d93038c.chunk.js": "/ioncapita/netflix-clone.git/static/js/2.3d93038c.chunk.js",
+    "static/js/2.3d93038c.chunk.js.map": "/ioncapita/netflix-clone.git/static/js/2.3d93038c.chunk.js.map",
+    "index.html": "/ioncapita/netflix-clone.git/index.html",
+    "static/css/main.35d75714.chunk.css.map": "/ioncapita/netflix-clone.git/static/css/main.35d75714.chunk.css.map",
+    "static/js/2.3d93038c.chunk.js.LICENSE.txt": "/ioncapita/netflix-clone.git/static/js/2.3d93038c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d22c9ab.js",
+    "static/js/2.3d93038c.chunk.js",
+    "static/css/main.35d75714.chunk.css",
+    "static/js/main.961cabd8.chunk.js"
+  ]
+}
